@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Manrope', sans-serif;
-  font-size: 1rem;
   list-style-position: inside;
 }
 
@@ -19,14 +18,13 @@ td {
 }
 
 .nav-bar {
-  height: 50px;
   background: white;
   color: #113f67;
   position: sticky;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 60px;
+  height: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -67,10 +65,14 @@ td {
   color: rgb(29, 28, 28);
 }
 
-.description p {
+p {
   color: #212122;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   text-align: justify;
+}
+
+.description p {
+  font-size: 0.95rem;
 }
 
 .projects-description {
@@ -106,6 +108,12 @@ hr {
 .contact h4 {
   font-size: 1rem;
   color: #686868;
+}
+
+.contact-linkedin {
+  color: #396982;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .projects h4 {
@@ -254,6 +262,28 @@ li::marker {
   background: #a4bed6;
 }
 
+.contact p {
+  text-align: center;
+}
+
+.contact-linkedin {
+  color: #396982;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.contact-email {
+  font-weight: bold;
+  margin: 40px 0px 20px 0px;
+}
+
+.return-to-portfolio,
+.return-to-portfolio > p {
+  color: #396982;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 /*Media Query max 560px */
 
 @media screen and (max-width: 560px) {
@@ -264,6 +294,14 @@ li::marker {
   .description {
     height: 65vh;
     min-height: 440px;
+  }
+
+  h2 {
+    margin-top: -5px;
+  }
+
+  h3 {
+    margin-top: 0;
   }
 }
 
