@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Manrope', sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   list-style-position: inside;
 }
 
@@ -69,8 +69,12 @@ td {
 
 .description p {
   color: #212122;
-  text-align: justify;
   font-size: 0.95rem;
+  text-align: justify;
+}
+
+.projects-description {
+  text-align: justify;
 }
 
 .contact {
@@ -272,7 +276,7 @@ li::marker {
   }
 
   body {
-    font-size: 0.95rem;
+    /* font-size: 0.95rem; */
     background-color: rgb(243, 243, 243);
   }
 
