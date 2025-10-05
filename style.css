@@ -10,7 +10,7 @@ body {
 }
 
 div {
-  padding: 10px;
+  padding: 8px;
 }
 
 td {
@@ -24,7 +24,7 @@ td {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 50px;
+  height: 46px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -80,7 +80,7 @@ hr {
 
 .contact hr {
   display: inline-block;
-  width: 80%;
+  width: 95%;
   max-width: 800px;
   margin-top: 40px;
   margin-bottom: 10px;
@@ -89,6 +89,8 @@ hr {
 .contact {
   height: 100vh;
   text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .contact h3 {
@@ -284,7 +286,7 @@ li::marker {
   font-weight: bold;
 }
 
-/*Media Query max 560px */
+/*Media Query max 560px [mobile] */
 @media screen and (max-width: 560px) {
   html {
     font-size: 0.95rem;
@@ -345,7 +347,8 @@ li::marker {
   .education,
   .skills,
   .experience,
-  .projects {
+  .projects,
+  .contact {
     border: solid 1px white;
     background: white;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
